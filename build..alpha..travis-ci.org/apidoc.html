@@ -61,12 +61,41 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.rbac2">module rbac2</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.rbac2.rbac2">
+            function <span class="apidocSignatureSpan"></span>rbac2
+            <span class="apidocSignatureSpan">(rules, checkFullPath, cacheTrees)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.rbac2" id="apidoc.module.rbac2">module rbac2</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.rbac2.rbac2" id="apidoc.element.rbac2.rbac2">
+        function <span class="apidocSignatureSpan"></span>rbac2
+        <span class="apidocSignatureSpan">(rules, checkFullPath, cacheTrees)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function RBAC(rules, checkFullPath, cacheTrees) {
+    this.rules = rules;
+    this.checkFullPath = !!checkFullPath;
+    this.cacheTrees = !!cacheTrees;
+    if (this.cacheTrees) {
+        this.trees = {};
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
